@@ -143,14 +143,14 @@
  }
  
  a {
-   color: #ed1c94;
+   color: #080ab4;
    text-decoration: none;
    background-color: transparent;
    -webkit-text-decoration-skip: objects;
  }
  
  a:hover {
-   color: #981df0;
+   color: #007bff;
    text-decoration: none;
  }
  
@@ -436,7 +436,7 @@
  mark,
  .mark {
    padding: 5px 10px;
-   background-color: #981df0;
+   background-color: #007bff;
  }
  
  .list-unstyled {
@@ -2782,12 +2782,12 @@
  
  .btn-link {
    font-weight: 400;
-   color: #ed1c94;
+   color: #080ab4;
    background-color: transparent;
  }
  
  .btn-link:hover {
-   color: #981df0;
+   color: #007bff;
    text-decoration: none;
    background-color: transparent;
    border-color: transparent;
@@ -4698,8 +4698,8 @@
    z-index: 2;
    color: #ffffff;
    text-decoration: none;
-   background-color: #981df0;
-   border-color: #981df0;
+   background-color: #007bff;
+   border-color: #007bff;
  }
  
  .page-link:focus {
@@ -4726,8 +4726,8 @@
  .page-item.active .page-link {
    z-index: 1;
    color: #ffffff;
-   background-color: #981df0;
-   border-color: #981df0;
+   background-color: #007bff;
+   border-color: #007bff;
  }
  
  .page-item.disabled .page-link {
@@ -5233,7 +5233,7 @@
  .bs-tooltip-auto[x-placement^="top"] .arrow::before {
    top: 0;
    border-width: 6px 3px 0;
-   border-top-color: #981df0;
+   border-top-color: #007bff;
  }
  
  .bs-tooltip-right,
@@ -5252,7 +5252,7 @@
  .bs-tooltip-auto[x-placement^="right"] .arrow::before {
    right: 0;
    border-width: 3px 6px 3px 0;
-   border-right-color: #981df0;
+   border-right-color: #007bff;
  }
  
  .bs-tooltip-bottom,
@@ -5269,7 +5269,7 @@
  .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
    bottom: 0;
    border-width: 0 3px 6px;
-   border-bottom-color: #981df0;
+   border-bottom-color: #007bff;
  }
  
  .bs-tooltip-left,
@@ -5288,7 +5288,7 @@
  .bs-tooltip-auto[x-placement^="left"] .arrow::before {
    left: 0;
    border-width: 3px 0 3px 6px;
-   border-left-color: #981df0;
+   border-left-color: #007bff;
  }
  
  .tooltip-inner {
@@ -5296,7 +5296,7 @@
    padding: 6px 10px;
    color: #ffffff;
    text-align: center;
-   background-color: #981df0;
+   background-color: #007bff;
    border-radius: 0.25rem;
  }
  
