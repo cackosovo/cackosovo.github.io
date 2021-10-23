@@ -21621,7 +21621,7 @@ html[class*="ie"] .dtp-hour-hand {
 .bg-gradient-1 .rd-navbar-fixed .rd-navbar-panel:before,
 .bg-gradient-2 .rd-navbar-fixed .rd-navbar-panel:before,
 .bg-gradient-3 .rd-navbar-fixed .rd-navbar-panel:before {
-  background: linear-gradient(-39deg, #470cb2 10%, #007bff 40%);
+  background: linear-gradient(-39deg, #004ea2 10%, #007bff 40%);
 }
 
 .bg-gray-darker .rd-navbar-fixed .rd-navbar-search .rd-navbar-search-toggle,

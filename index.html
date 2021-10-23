@@ -14,130 +14,9 @@
   <link rel="stylesheet" href="static/css/style2.01.css">
   <link rel="stylesheet" href="static/css/fonts.css">
   <link rel="stylesheet" href="static/css/novi.css">
+  <link rel="stylesheet" href="static/css/custom.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<style>
-  .ie-panel {
-    display: none;
-    background: #212121;
-    padding: 10px 0;
-    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
-    clear: both;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
-
-  html.ie-10 .ie-panel,
-  html.lt-ie-10 .ie-panel {
-    display: block;
-  }
-
-  .fa {
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-
-  .parallax-scene .layer-01 {
-    left: 80px;
-    top: 55px;
-  }
-
-  .parallax-scene .layer-08 {
-    left: 285px;
-    top: 145px;
-    opacity: 0.6;
-  }
-
-  .parallax-scene .layer-07 {
-    left: 85%;
-    top: 75%;
-    opacity: 0.6;
-  }
-
-  .parallax-scene .layer-06 {
-    display: none;
-  }
-
-  .zoom {
-    transition: transform .2s;
-    /* Animation */
-  }
-
-  .zoom:hover {
-    transform: scale(1.03);
-    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-
-  .fa-facebook:hover {
-    color: #3b5998;
-  }
-
-  .fa-twitter:hover {
-    color: #00acee;
-  }
-
-  .fa-linkedin:hover {
-    color: #0e76a8;
-  }
-
-  .fa-google:hover {
-    color: #B23121;
-  }
-
-  .bg-default1 {
-    fill: black;
-    background-color: black !important;
-  }
-
-  .novi-bg {
-    background-image: url('static/images/bg2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .box-simple {
-    color: #007bff;
-  }
-
-
-  .novi-bg1 {
-    background-color: black;
-  }
-
-  #more {
-    display: none;
-  }
-
-  #more1 {
-    display: none;
-  }
-
-  .myreadingBtn {
-    color: 007bff;
-    border: none;
-  }
-
-  .myreadingBtn:hover {
-    background-color: 007bff;
-    color: white;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    #removefooter {
-      display: none;
-    }
-  }
-
-
-  #light-mode {
-    display: none;
-  }
-</style>
-
 <body>
   <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
         src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
@@ -452,7 +331,7 @@
       <section class="section section-xs text-center bg-gradient-1">
         <div class="container-wide">
           <div class="box-cta-thin">
-            <p class="big"><span class="badge-cta badge-cta-primary">Hot!</span><strong>College Application Center</strong><span>&nbsp;is
+            <p class="big"><strong>College Application Center</strong><span>&nbsp;is
                 your choice to a successful future.&nbsp;</span><a class="link-bold" href="/contactus"
                 target="_blank">Call now!</a></p>
           </div>
@@ -746,7 +625,7 @@
       <section class="section section-xs text-center bg-gradient-1">
         <div class="container-wide">
           <div class="box-cta-thin">
-            <p class="big"><span class="badge-cta badge-cta-primary">Hot!</span><strong>College Application Center</strong><span>&nbsp;is
+            <p class="big"><strong>College Application Center</strong><span>&nbsp;is
                 your choice to a successful future.&nbsp;</span><a class="link-bold" href="/contactus"
                 target="_blank">Call now!</a></p>
           </div>
@@ -779,41 +658,6 @@
     </div>
   </div>
   <div class="snackbars" id="form-output-global"></div>
-  <script>
-    function myreadingFunction() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtn");
-
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
-      }
-    }
-
-  </script>
-  <script>
-    function myreadingFunction1() {
-      var dots = document.getElementById("dots1");
-      var moreText = document.getElementById("more1");
-      var btnText = document.getElementById("myBtn1");
-
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
-      }
-    }
-  </script>
   <script>
     function mydarkmodeFunction() {
       document.getElementById("dark-mode").style.display = "block";
